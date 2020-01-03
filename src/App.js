@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.scss';
 import { NavigationDrawer } from 'react-md';
 
+console.log('ho');
+
 function App() {
   return (
     <NavigationDrawer

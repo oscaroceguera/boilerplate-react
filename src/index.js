@@ -6,8 +6,6 @@ import * as serviceWorker from './serviceWorker';
 
 import WebFontLoader from 'webfontloader';
 
-const algo = 'ol';
-
 WebFontLoader.load({
   google: {
     families: ['Roboto:300,400,500,700', 'Material Icons'],
