@@ -8,7 +8,14 @@
   "parserOptions": {
     "ecmaVersion": 2018
   },
+  "overrides": [
+    {
+        "files": [ "serviceWorker.js" ],
+        "rules": { "no-unused-expressions": "off" }
+    }
+  ],
   "rules": {
+    "no-console": 2,
     "prettier/prettier": [
       "error",
       {
